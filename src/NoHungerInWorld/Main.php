@@ -13,11 +13,11 @@ class Main extends PluginBase implements Listener {
 
   public function onEnable(){
       $this->getServer()->getPluginManager()->registerEvents($this,$this);
-      $this->getLogger()->info(TextFormat::AQUA . "NoHungerInWorld Enabled.");;
+      $this->getLogger()->info(TextFormat::AQUA . "NoHungerInWorld Enabled...");;
   }
   
   public function onDisable(){
-      $this->getLogger()->info(TextFormat::AQUA . "NoHungerInWorld Disabled.")
+      $this->getLogger()->info(TextFormat::AQUA . "NoHungerInWorld Disabled...")
   }
   
   public function onExhaust(PlayerExhaustEvent $event){
